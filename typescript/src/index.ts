@@ -1,6 +1,3 @@
-import HelloWorld from "./helloWorld"
-import GoodbyeWorld from "./nested/goodbyeWorld"
-import Optional from "optional-js"
+import HelloWorld from './helloWorld';
 
-console.log(new HelloWorld(Optional.of("user")).message())
-console.log(new GoodbyeWorld(Optional.empty()).message())
+console.log(new HelloWorld('user').message());
