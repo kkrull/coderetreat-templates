@@ -18,9 +18,10 @@ consequences.
 
 1. introduction, followed by
 1. a few cycles of
+
    1. pair on the kata for about 40 minutes
-   1. delete the code you just wrote
-   2. get back together for a quick retro: What did you learn?  What surprised you?
+   2. delete the code you just wrote
+   3. get back together for a quick retro: What did you learn?  What surprised you?
 2. Lunch period, somewhere between sessions.
 3. Wrap up
 
@@ -29,6 +30,7 @@ consequences.
 ### Pairing
 
 1. Driver-navigator:
+
    * Driver: One person types and thinks about low-level details (syntax,
      running tests, etc..) while
    * Navigator: the other person thinks about things that are a bit more
@@ -36,7 +38,8 @@ consequences.
      break the current algorithm, etc...).
    * Pro-tip: Set a timer and change every 10-20 minutes, so everyone gets a
      turn.
-1. Ping-pong:
+2. Ping-pong:
+
    * Start with a failing test.
    * Person A writes the production code that makes that test pass and then
      writes the next failing test.
@@ -115,10 +118,11 @@ Reference: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules
   experienced enough to quickly set up a development environment and can explain
   basic test+production syntax.
 * Pairing tools:
-  * Your regular dev environment + plus screen sharing
-  * VS Live Code
-  * Jetbrains has a new pairing feature?
-  * Codesandbox? https://codesandbox.io/
+
+   * Your regular dev environment + plus screen sharing
+   * VS Live Code
+   * Jetbrains has a new pairing feature?
+   * Codesandbox? https://codesandbox.io/
 
 
 ## What to do next?
