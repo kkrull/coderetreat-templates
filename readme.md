@@ -2,7 +2,7 @@
 
 Skeleton projects that can help when starting a new Code Retreat session, in
 which participants practice [Conway's Game of
-Life][https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules].
+Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules).
 
 
 ## The big idea
@@ -18,11 +18,11 @@ consequences.
 
 1. introduction, followed by
 1. a few cycles of
-  1. ​​​​pair on the kata for ~40m
-  1. delete the code you just wrote
-  1. get back together for a quick retro: What did you learn?  What surprised you?
-1. Lunch period, somewhere between sessions.
-1. Wrap up
+   1. pair on the kata for about 40 minutes
+   1. delete the code you just wrote
+   2. get back together for a quick retro: What did you learn?  What surprised you?
+2. Lunch period, somewhere between sessions.
+3. Wrap up
 
 
 ## Things to practice
@@ -97,7 +97,8 @@ Blog: https://martinfowler.com/bliki/BeckDesignRules.html
 
 ## Kata: Conway's Game of Life
 
-Rules:
+**Goal: Write a function that accepts a game state (where cells are alive or
+dead) and computes the next game state**, following these rules:
 
 1. Any live cell with fewer than two live neighbors dies [underpopulation]
 1. Any live cell with two or three live neighbors lives on to the next
